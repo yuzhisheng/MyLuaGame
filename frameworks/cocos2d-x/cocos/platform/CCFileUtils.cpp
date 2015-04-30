@@ -889,7 +889,7 @@ void FileUtils::addSearchPath(const std::string &searchpath,const bool front)
         prefix = _defaultResRootPath;
 
     std::string path = prefix + searchpath;
-    if (path.length() > 0 && path[path.length()-1] != '/')
+    if (path.length() > 0 && path[path.length()-1] != '/' && path[path.length()-1] != '\\')
     {
         path += "/";
     }

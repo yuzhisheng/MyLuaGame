@@ -119,10 +119,7 @@
       </Command>
     </PreLinkEvent>
     <PostBuildEvent>
-      <Command>xcopy /Y /Q "$(OutDir)*.dll" "$(ProjectDir)..\..\..\runtime\win32\"
-xcopy /Y /Q "$(ProjectDir)..\Classes\ide-support\lang" "$(ProjectDir)..\..\..\runtime\win32\"
-xcopy "$(ProjectDir)..\..\..\res" "$(ProjectDir)..\..\..\runtime\win32\res" /D /E /I /F /Y
-xcopy "$(ProjectDir)..\..\..\src" "$(ProjectDir)..\..\..\runtime\win32\src" /D /E /I /F /Y</Command>
+      <Command>xcopy /Y /Q "$(OutDir)*.dll" "$(ProjectDir)..\..\..\runtime\win32\"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -168,7 +165,7 @@ xcopy "$(ProjectDir)..\..\..\src" "$(ProjectDir)..\..\..\runtime\win32\src" /D /
       </DllDataFileName>
     </Midl>
     <PreBuildEvent>
-     <Command>if not exist "$(LocalDebuggerWorkingDirectory)" mkdir "$(LocalDebuggerWorkingDirectory)"</Command>
+      <Command>if not exist "$(LocalDebuggerWorkingDirectory)" mkdir "$(LocalDebuggerWorkingDirectory)"</Command>
       <Message>copy files</Message>
     </PreBuildEvent>
     <PreLinkEvent>

@@ -1,0 +1,23 @@
+*.lib
+*.obj
+Debug.win32
+*.o
+*.lo
+*.la
+*.al
+.libs
+.[0-9]*
+*.pyc
+*.pyo
+__pycache__ *.rej 
+*~ 
+#*#
+.#*
+.*.swp 
+.DS_Store
+*.sdf
+*.ilk
+*.opensdf
+*.suo
+*.pbd
+*.pdb
