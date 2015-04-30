@@ -1,0 +1,75 @@
+{
+   "android" : {
+      "dev" : {
+         "android_pay" : "0",
+         "serverIP" : "101.226.154.83",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "formal" : {
+         "android_pay" : "1",
+         "serverIP" : "login.qfarm.qq.com",
+         "url" : "http://dlied5.qq.com/qfarm/formal/"
+      },
+      "long" : {
+         "android_pay" : "1",
+         "serverIP" : "pre.login.qfarm.qq.com",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "platform" : "android",
+      "prevVersion" : "1.7.29",
+      "rootDir" : "../../GL_Project/Resources",
+      "test" : {
+         "android_pay" : "0",
+         "serverIP" : "101.227.153.113",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "version" : "1.7.30"
+   },
+   "env" : "formal",
+   "exclude" : [
+      "clientVersions.pb",
+      ".svn",
+      "packageConf.txt",
+      "Opening-1.png",
+      "Animal-1.png",
+      "Building-1.png",
+      "Effect-1.png",
+      "Loading-1.png",
+      "Nature-1.png",
+      "Npc-1.png",
+      "Tutorial-1.png"
+   ],
+   "ios" : {
+      "apple" : {
+         "android_pay" : "1",
+         "serverIP" : "applelogin.qfarm.qq.com",
+         "url" : "http://dlied5.qq.com/qfarm/formal/"
+      },
+      "dev" : {
+         "android_pay" : "0",
+         "serverIP" : "101.226.154.83",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "formal" : {
+         "android_pay" : "1",
+         "serverIP" : "login.qfarm.qq.com",
+         "url" : "http://dlied5.qq.com/qfarm/formal/"
+      },
+      "long" : {
+         "android_pay" : "1",
+         "serverIP" : "pre.login.qfarm.qq.com",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "platform" : "ios",
+      "prevVersion" : "1.5.83",
+      "rootDir" : "../../GL_Project/Resources",
+      "test" : {
+         "android_pay" : "0",
+         "serverIP" : "101.227.153.113",
+         "url" : "http://dlied5.qq.com/qfarm/test/"
+      },
+      "version" : "1.5.83"
+   },
+   "output" : "./output/",
+   "versionName" : "1.5.12.14"
+}
