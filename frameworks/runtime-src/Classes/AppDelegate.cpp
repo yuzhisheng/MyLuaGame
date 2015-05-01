@@ -53,7 +53,7 @@ bool AppDelegate::applicationDidFinishLaunching()
 	FileUtils::getInstance()->addSearchPath("");
     stack->setXXTEAKeyAndSign("2dxLua", strlen("2dxLua"), "XXTEA", strlen("XXTEA"));
     
-    if (engine->executeScriptFile("src/main.lua"))
+    if (engine->executeScriptFile("resources/scripts/main.lua"))
     {
         return false;
     }

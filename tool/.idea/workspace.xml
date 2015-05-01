@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6afa08a3-892a-446f-887c-912291c4928e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/versionTool/genVersionCode.py" afterPath="$PROJECT_DIR$/versionTool/genVersionCode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../version" afterPath="$PROJECT_DIR$/../version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genResVersions.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="genResVersions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6271186" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4483986" vertical-offset="0" max-vertical-offset="1080">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genVersionCode.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="genVersionCode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/versionTool/genVersionCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5217391" vertical-offset="108" max-vertical-offset="1152">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding>
                 <element signature="e#24#46#0" expanded="true" />
               </folding>
@@ -491,21 +490,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6271186" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/versionTool/genVersionCode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5217391" vertical-offset="108" max-vertical-offset="1152">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding>
             <element signature="e#24#46#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4483986" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
