@@ -20,10 +20,9 @@ def run():
     try:
         f = urllib2.urlopen(url)
         filename = url.split("/")[-1]
-        print "filename is " + filename
         strCode = f.read()
         newCode  = int(strCode) + 1
-        print "prev Code is " + strCode
+        print "new version Code is " + strCode
         f.close()
 
         f = open(outputDir + "/" + filename ,"wb")

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6afa08a3-892a-446f-887c-912291c4928e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/versionTool/genVersionCode.py" afterPath="$PROJECT_DIR$/versionTool/genVersionCode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genResVersions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="genResVersions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4163701" vertical-offset="0" max-vertical-offset="1080">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="27" />
+            <state vertical-scroll-proportion="-7.6271186" vertical-offset="0" max-vertical-offset="1080">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="genVersionCode.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="genVersionCode.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/versionTool/genVersionCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.6956522" vertical-offset="0" max-vertical-offset="1152">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="e#24#46#0" expanded="true" />
               </folding>
@@ -491,21 +490,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versionTool/genVersionCode.py">
+    <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1170">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="77" />
-          <folding>
-            <element signature="e#24#46#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-7.6271186" vertical-offset="0" max-vertical-offset="1080">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
+    <entry file="file://$PROJECT_DIR$/versionTool/genVersionCode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4163701" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="27" />
-          <folding />
+        <state vertical-scroll-proportion="0.6956522" vertical-offset="0" max-vertical-offset="1152">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
