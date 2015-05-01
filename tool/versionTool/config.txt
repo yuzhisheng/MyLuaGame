@@ -2,14 +2,5 @@
    "exclude" : [
       "clientVersions.pb",
       ".svn",
-      "packageConf.txt",
-      "Opening-1.png",
-      "Animal-1.png",
-      "Building-1.png",
-      "Effect-1.png",
-      "Loading-1.png",
-      "Nature-1.png",
-      "Npc-1.png",
-      "Tutorial-1.png"
    ]
 }
