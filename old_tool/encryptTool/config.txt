@@ -1,0 +1,5 @@
+{
+	"dirs":["../../GL_Project/proj.android/assets"],
+	"exts":[".png", ".jpg"],
+	"code":"952700"
+}

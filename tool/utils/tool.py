@@ -1,68 +1,14 @@
 # -*- coding: utf-8 -*
-#读取配置文件
+#锟斤拷取锟斤拷锟斤拷锟侥硷拷
 import json
 import sys, os, stat
 import hashlib
-import fileversions_pb2
-import client_gamesetting_conf_pb2
 from biplist import*
 from datetime import *
-import time
 import platform
 import re
-import codecs
 
-texopt = {
-# "texture-format" : "pvr2ccz",
-"padding" : "0",
-"trim-mode" : "None",
-"algorithm" : "Basic",
-"size-constraints" : "AnySize",
-"max-size" : "4096",
-"premultiply-alpha":" "
-}
 
-	#设置gamesetting.pb里面资源服务器url
-def setValueKey(array, key, value, replace = True):
-	for item in array.items: 
-		if item.key == key:
-			if not replace:
-				return
-			item.value = value
-			return
-	item = array.items.add()
-	item.key = key
-	item.value = value
-
-def setGamesetting(currentConfig, envConfig):
-	settingArray = client_gamesetting_conf_pb2.client_gamesetting_conf_array()
-	filename = currentConfig["rootDir"] + "/" + "GameSetting.pb" 
-	readFromPB(settingArray, filename)
-	#设置资源服务器路径
-	setValueKey(settingArray, "res_server_url", envConfig["url"])
-	print "res server url: " +  envConfig["url"]
-	#设置公告文件路径
-	bulletinurl = envConfig["url"] + "bulletin_" + currentConfig["platform"] + ".txt"
-	setValueKey(settingArray, "bulletin_file_url", bulletinurl)
-	print "bulletin url: " +  bulletinurl
-	#版本信息文件
-	setValueKey(settingArray, "server_version_file", "versions_" + currentConfig["platform"])
-	print "server_version_file : " +  "versions_" + currentConfig["platform"]
-	#版本号
-	setValueKey(settingArray, "client_res_version", currentConfig["version"], False)
-	print "client_res_version : " + currentConfig["version"]
-	#设置服务器ip
-	setValueKey(settingArray, "ip", envConfig["serverIP"])
-	print "server ip: " +  envConfig["serverIP"]
-	#设置支付环境
-	setValueKey(settingArray, "android_pay", envConfig["android_pay"])
-	print "android_pay : " +  envConfig["android_pay"]
-	writeToPB(settingArray, filename)
-
-def setLuaVersion(currentConfig):
-	print "setLuaVersion to version " + currentConfig["version"]
-	filename = currentConfig["rootDir"] + "/Script/script_config.lua" 
-	replaceFile(filename, r'(.*current_res_version\s*=\s*")(.*)(".*)', currentConfig["version"])
 	
 def replaceFile(filename, reStr, destStr):
 	# p = re.compile(reStr)
@@ -79,7 +25,7 @@ def replaceFile(filename, reStr, destStr):
 	# print "content after replace: "+ result
 	f.close()
 	
-#去除空行 注释和log
+#去锟斤拷锟斤拷锟斤拷 注锟酵猴拷log
 def stripFile(filename):
 	# return
 	if not filename.endswith(".lua") or isMac():
@@ -154,7 +100,7 @@ def loadConfig():
 	f.close()
 	return config
 	
-#获取一个文件的md5
+#锟斤拷取一锟斤拷锟侥硷拷锟斤拷md5
 def get_md5_value(filename):
     f= open(filename, 'rb')  
     return get_md5_valuefromData(f.read())
@@ -174,12 +120,12 @@ class GMT8(tzinfo):
 	def dst(self,dt):
 		return self.delta
 	
-#格式化文件路径
+#锟斤拷式锟斤拷锟侥硷拷路锟斤拷
 def formatFileName(filename, rootDir):
     rootLen = len(rootDir) + 1
     return filename[rootLen :].replace('\\', '/')
 	
-#去除掉分辨率路径
+#去锟斤拷锟斤拷锟街憋拷锟斤拷路锟斤拷
 def stripResolutionDir(filename):
 	if filename.startswith("HD/") or filename.startswith("LD/"):
 		return filename[3:]
@@ -190,7 +136,7 @@ def getItemByFilename(array, filename):
 		if item.file_path == filename:
 			return item
 			
-#将pb写入制定文件
+#锟斤拷pb写锟斤拷锟狡讹拷锟侥硷拷
 def writeToPB(array, file):
 	f = open(file,"wb") 
 	print "save File " + file
@@ -201,7 +147,7 @@ def writeToPB(array, file):
 	finally:
 		f.close()  
 
-#读取一个文件到pb
+#锟斤拷取一锟斤拷锟侥硷拷锟斤拷pb
 def readFromPB(array, file):
 	if not os.path.exists(file):
 		print  file + "  not exist!"
@@ -235,7 +181,7 @@ def decryptFile(path):
 def isLuaFile(path):
     return path.endswith(".lua")
 
-#mac 下有luajit 不加密了
+#mac 锟斤拷锟斤拷luajit 锟斤拷锟斤拷锟斤拷锟斤拷
 def isFileNeedEncrypt(path):
 	#return (isLuaFile(path) and not isMac()) or isImageFile(path)
 	return (isLuaFile(path) and not isMac()) 
@@ -296,7 +242,7 @@ def getShortFileName(filename, rootDir):
 	shortName = stripResolutionDir(shortName)
 	return shortName
 	
-#文件处理		
+#锟侥硷拷锟斤拷锟斤拷		
 def processImage(fileHash, filename, rootDir):
 	if not isImageFile(filename):
 		return	

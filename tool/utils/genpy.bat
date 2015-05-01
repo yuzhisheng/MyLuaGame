@@ -1,2 +1,0 @@
-..\..\protobuf-2.5.0\protoc -I=. --cpp_out=../../GL_Project/Classes/Resource --python_out=. .\fileversions.proto
-..\..\protobuf-2.5.0\protoc -I=..\..\..\server\qday\shm_loader\clientProto --python_out=. ..\..\..\server\qday\shm_loader\clientProto\client_gamesetting_conf.proto

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6afa08a3-892a-446f-887c-912291c4928e" name="Default" comment="">
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\BugAnt.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\BugDead.wav" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\BugEnterHole.wav" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\BugSpider.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\ExitButton.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\MainSceneBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\PlayButton.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\PlaySceneBg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\res\Star.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\MyApp.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\models\BugAnt.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\models\BugBase.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\models\BugSpider.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\views\BugSprite.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\views\DeadBugSprite.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\views\GameView.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\views\MainScene.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\app\views\PlayScene.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\Cocos2d.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\Cocos2dConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\DeprecatedCocos2dClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\DeprecatedCocos2dEnum.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\DeprecatedCocos2dFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\DeprecatedOpenglEnum.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\DrawPrimitives.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\Opengl.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\OpenglConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\bitExtend.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\deprecated.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\functions.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\json.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\luaj.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocos2d\luaoc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocosbuilder\CCBReaderLoad.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocosbuilder\DeprecatedCocosBuilderClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocosdenshion\AudioEngine.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocosdenshion\DeprecatedCocosDenshionClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocosdenshion\DeprecatedCocosDenshionFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocostudio\CocoStudio.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocostudio\DeprecatedCocoStudioClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocostudio\DeprecatedCocoStudioFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\cocostudio\StudioConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\controller\ControllerConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\extension\DeprecatedExtensionClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\extension\DeprecatedExtensionEnum.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\extension\DeprecatedExtensionFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\extension\ExtensionConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\audio.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\components\event.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\device.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\display.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\LayerEx.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\MenuEx.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\NodeEx.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\SpriteEx.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UICheckBox.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UIEditBox.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UIListView.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UIPageView.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UIScrollView.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UISlider.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UITextField.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\extends\UIWidget.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\init.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\package_support.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\framework\transition.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\init.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\network\DeprecatedNetworkClass.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\network\DeprecatedNetworkEnum.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\network\DeprecatedNetworkFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\network\NetworkConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\spine\SpineConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\ui\DeprecatedUIEnum.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\ui\DeprecatedUIFunc.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\ui\GuiConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\cocos\ui\experimentalUIConstants.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\config.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\main.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\packages\mvc\AppBase.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\packages\mvc\ViewBase.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\src\packages\mvc\init.lua" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\biplist\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\biplist\six.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\client_gamesetting_conf_pb2.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\fileversions.proto" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\fileversions_pb2.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\genpy.bat" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\compiler\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\compiler\plugin_pb2.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\descriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\descriptor_database.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\descriptor_pb2.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\descriptor_pool.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\api_implementation.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\containers.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\cpp_message.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\decoder.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\encoder.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\enum_type_wrapper.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\message_listener.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\python_message.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\type_checkers.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\internal\wire_format.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\message.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\message_factory.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\reflection.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\service.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\service_reflection.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\utils\google\protobuf\text_format.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\checkConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\genClientSrc\genClientVersions.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\genClientSrc\myicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\genClientSrc\setup.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\genClientSrc\toexe.bat" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\genClientVersions.exe" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\hash.plist" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\hfs279.exe" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\log.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\preprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\src\genVersions.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\src\myicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\src\setup.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\src\testUrl.py" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\src\toexe.bat" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\striplist.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\MyLuaGame\tool\versionTool\testRes.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../runtime/win32/MyLuaGame.exe" afterPath="$PROJECT_DIR$/../runtime/win32/MyLuaGame.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../runtime/win32/libcocos2d.dll" afterPath="$PROJECT_DIR$/../runtime/win32/libcocos2d.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../config.json" afterPath="$PROJECT_DIR$/../config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/versionTool/config.txt" afterPath="$PROJECT_DIR$/versionTool/config.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/tool.py" afterPath="$PROJECT_DIR$/utils/tool.py" />
+    </list>
+    <ignored path="tool.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/tool$genResVersions.coverage" NAME="genResVersions Coverage Results" MODIFIED="1430469160764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/versionTool" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tool" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tool.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/tool.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.266666" vertical-offset="1252" max-vertical-offset="5328">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+              <folding>
+                <element signature="e#35#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genResVersions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.74377227" vertical-offset="446" max-vertical-offset="1098">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileversions_pb2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/versionTool/fileversions_pb2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/tool.py" />
+        <option value="$PROJECT_DIR$/versionTool/genResVersions.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.8 (C:\Python27\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="versionTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.genResVersions">
+    <configuration default="false" name="genResVersions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/versionTool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/versionTool/genResVersions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tool" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.genResVersions" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.genResVersions" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6afa08a3-892a-446f-887c-912291c4928e" name="Default" comment="" />
+      <created>1430461597683</created>
+      <option name="number" value="Default" />
+      <updated>1430461597683</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2972973" sideWeight="0.43283582" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2972973" sideWeight="0.5671642" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18017058" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25586355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="3271" y="125" width="480" height="925" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/versionTool/fileversions_pb2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/tool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.266666" vertical-offset="1252" max-vertical-offset="5328">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+          <folding>
+            <element signature="e#35#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versionTool/genResVersions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74377227" vertical-offset="446" max-vertical-offset="1098">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
