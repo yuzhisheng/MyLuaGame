@@ -34,7 +34,6 @@ def run():
 def usage():
     print "-i:  input directory"
     print "-o:  output directory"
-    pass
 
 
 opts, args = getopt.getopt(sys.argv[1:], "hi:o:")
