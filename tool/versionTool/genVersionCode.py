@@ -11,8 +11,8 @@ from utils import *
 tool.chDirToExecPath()
 
 
-url = ""
-outputDir = "../../resources"
+url = "https://raw.githubusercontent.com/yuzhisheng/MyLuaGame/master/version"
+outputDir = "../../"
 
 
 
