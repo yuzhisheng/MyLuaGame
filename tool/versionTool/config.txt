@@ -1,6 +1,6 @@
 {
    "exclude" : [
       "clientVersions.pb",
-      ".svn",
+      ".svn"
    ]
 }
