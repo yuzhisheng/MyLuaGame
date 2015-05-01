@@ -22,7 +22,7 @@ def run():
         filename = url.split("/")[-1]
         strCode = f.read()
         newCode  = int(strCode) + 1
-        print "new version Code is " + strCode
+        print "new version Code is " + str(newCode)
         f.close()
 
         f = open(outputDir + "/" + filename ,"wb")
